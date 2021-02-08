@@ -32,7 +32,7 @@ end
 numDetBer = mean(numDetBer, 2);
 numAlamoutiBer = mean(numAlamoutiBer, 2);
 
-figure('name', 'BER of QPSK over 2-by-2 MIMO i.i.d. Rayleigh fading channel with DET and Alamouti');
+figure('name', 'BER of QPSK over 2-by-2 MIMO i.i.d. Rayleigh fading channel by DET and Alamouti');
 semilogy(snrDb, numDetBer);
 hold on;
 semilogy(snrDb, numAlamoutiBer);
