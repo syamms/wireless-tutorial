@@ -1,6 +1,6 @@
-function [txSymbol] = tran_mrt(symbol, fading)
+function [txSymbol] = prec_mrt(symbol, fading)
 	% Function:
-	%   - maximal ratio transmission with multiple transmit antennas
+	%   - maximal ratio transmission precoder with multiple transmit antennas
 	%
 	% Input:
 	%   - symbol: modulated symbols to be transmitted
